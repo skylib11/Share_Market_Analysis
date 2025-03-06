@@ -5,9 +5,9 @@
 This project is designed for analyzing the **Indian Share Market** by processing share market data and identifying key trading signals. The scripts use share market data retrieved via **Yahoo Finance** and identify signals based on **RSI (Relative Strength Index) and SMA (Simple Moving Average)** indicators. 
 
 ## Features
-- **Yahoo Finance Symbols**: Requires a list of **NSE/BSE stock symbols** in `company_list.csv`.
+- **Yahoo Finance Symbols**: Requires a list of **NSE/BSE company symbols** in `company_list.csv`.
 - **Downloads historical data**: Downloads historical price data from yahoo finance.
-- **Data Preprocessing**: Cleans and formats raw stock data for analysis.
+- **Data Preprocessing**: Cleans and formats raw share market data for analysis.
 - **Signal Detection**: Displays and saves buy/sell signals for analysis.
 
 ## Files in the Repository
@@ -24,7 +24,7 @@ This project is designed for analyzing the **Indian Share Market** by processing
    - Saves trade signals to CSV for further review.
 
 ### 3. `company_list.csv`
-   - Contains a list of **Yahoo Finance stock symbols** for NSE/BSE.
+   - Contains a list of **Yahoo Finance share market company symbols** for NSE/BSE.
    - Example format:
      ```csv
      Symbol,Company
@@ -49,7 +49,7 @@ Ensure you have the following installed:
    ```bash
    python3 share_data_preprocessing.py
    ```
-   - This will fetch stock data and save processed CSV files in a `processed_data` folder.
+   - This will fetch share market data and save processed CSV files in a `processed_data` folder.
 
 3. **Run Trend Analysis:**
    ```bash
