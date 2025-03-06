@@ -1,12 +1,12 @@
 """
-Stock Data Processing Script
+Share Market Data Processing Script
 
 Author: S.T. Sathish (SKYLIB)
-Date: March 2025
-Description: This script fetches historical stock price data from Yahoo Finance, cleans the data, performs feature engineering, and saves it in multiple formats.
+Date: 6 March 2025
+Description: This script fetches historical share market price data from Yahoo Finance, cleans the data, performs feature engineering, and saves it in multiple formats.
 
 Features:
-- Fetches stock data for given tickers from Yahoo Finance
+- Fetches share market data for given tickers from Yahoo Finance
 - Cleans missing values and formats date
 - Adds technical indicators (SMA_20, SMA_50, SMA_200, RSI_14, Daily Return, Volatility)
 - Saves raw, cleaned, and processed data for further analysis
@@ -37,7 +37,7 @@ def log_message(message):
         f.write(log_entry + "\n")
 
 def fetch_stock_data(ticker, start_date, end_date):
-    """Fetch historical stock price data from Yahoo Finance and clean it."""
+    """Fetch historical share market price data from Yahoo Finance and clean it."""
     stock = yf.Ticker(ticker)
     data = stock.history(start=start_date, end=end_date)
     
