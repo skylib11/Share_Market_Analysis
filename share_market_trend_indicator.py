@@ -2,8 +2,8 @@
 Share Market Buy/Sell Signal Detection
 
 Author: S.T. Sathish (SKYLIB)
-Date: March 2025
-Description: This script analyzes processed stock data to identify buy and sell opportunities based on RSI_14 and SMA indicators.
+Date: 6 March 2025
+Description: This script analyzes processed share market data to identify buy and sell opportunities based on RSI_14 and SMA indicators.
 
 Signals:
 - Buy: RSI_14 < 30 and Close price crosses above SMA_20
