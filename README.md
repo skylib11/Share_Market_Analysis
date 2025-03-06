@@ -1,5 +1,5 @@
 # Share-Market-Analysis
-# Share Market Data Processing & Trend Analysis
+# Share Market Data Processing & Signal Identifier
 
 ## Overview
 This project is designed for analyzing the **Indian Share Market** by processing share market data and identifying key trading signals. The scripts use share market data retrieved via **Yahoo Finance** and identify signals based on **RSI (Relative Strength Index) and SMA (Simple Moving Average)** indicators. 
