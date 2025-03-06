@@ -58,7 +58,7 @@ Ensure you have the following installed:
    - This will analyze the processed data and generate buy/sell signals in a `signals` folder.
 
 ## Output
-- **Raw Data**: Stored in  raw_data/`
+- **Raw Data**: Stored in `raw_data/`
 - **Processed Data**: Stored in `processed_data/`
 - **Trade Signals**: Saved in `signals/` with timestamps.
 - **Logs**: Buy/sell signal detection logs are stored in `logs/`.
