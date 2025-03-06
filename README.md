@@ -35,11 +35,12 @@ This project is designed for analyzing the **Indian Share Market** by processing
 
 ## Requirements
 Ensure you have the following installed:
-- Python 3.x
-- Required Python libraries:
-  ```bash
-  pip install pandas numpy yfinance ta
-  ```
+- Python 3.10
+  ( The script might work with other or previous versions. It is upto you to try.)
+
+Third-Party Modules (May Need Installation)
+tqdm → For the progress bar
+tkinter (Only if not pre-installed) → For GUI-based folder selection
 
 ## How to Use
 1. **Prepare the share market symbol list:**
