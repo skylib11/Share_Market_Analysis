@@ -4,6 +4,10 @@
 ## Overview
 This project is designed for analyzing the **Indian Share Market** by processing share market data and identifying key trading signals. The scripts use share market data retrieved via **Yahoo Finance** and identify signals based on **RSI (Relative Strength Index) and SMA (Simple Moving Average)** indicators. 
 
+## NOTE
+This project is still in development. There might be some issues. I hope to give you a proper version of it soon.
+
+
 ## Features
 - **Yahoo Finance Symbols**: Requires a list of **NSE/BSE company symbols** in `company_list.csv`.
 - **Downloads historical data**: Downloads historical price data from yahoo finance.
